@@ -1,9 +1,8 @@
 from rest_framework import status
-from rest_framework.parsers import JSONParser
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from larixon_app.models import Category, City, Advert
-from larixon_app.serializers import CategorySerializer, CitySerializer, AdvertSerializer
+from larixon_app.models import Advert
+from larixon_app.serializers import AdvertSerializer
 
 
 
